@@ -1,0 +1,12 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['CHOROID_PLEXUS', 'CSP', 'MIDLINE_FALX']
+
+roboflow:
+  workspace: fozan-azhar-kjmti
+  project: ultrasound-fetal-brain-image-detection
+  version: 2
+  license: CC BY 4.0
